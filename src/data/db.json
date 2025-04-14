@@ -21,28 +21,28 @@
   ],
   "product": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Cricket bat",
       "description": "High quality we can use for leather ball",
       "price": "10001",
       "status": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Stumbber ball",
       "description": "Rubber ball",
       "price": "25",
       "status": true
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Keeping clove",
       "description": "clove new",
       "price": "300",
       "status": true
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "tennis bat",
       "description": "new",
       "price": "11",
@@ -68,7 +68,7 @@
   ],
   "invoice": [
     {
-      "id": 1,
+      "id": "1",
       "customerid": "CS002",
       "customername": "Ramesh Kannan",
       "deliveryaddress": "2nd street, Nandan street, chennai 600021",
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "customerid": "CS002",
       "customername": "Ramesh Kannan",
       "deliveryaddress": "2nd street, Nandan street, chennai 600021",
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "customerid": "CS002",
       "customername": "Ramesh Kannan",
       "deliveryaddress": "2nd street, Nandan street, chennai 600021",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "customerid": "CS003",
       "customername": "Kishore kumar",
       "deliveryaddress": "3rd street, Nandan street, chennai 600021",
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "customerid": "CS001",
       "customername": "Ravi krishna",
       "deliveryaddress": "1st street, Nandan street, chennai 600021",
@@ -181,6 +181,28 @@
           "qty": 1,
           "price": "10001",
           "total": 10001
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "customerid": "CS001",
+      "customername": "Ravi krishna",
+      "deliveryaddress": "1st street, Nandan street, chennai 600021",
+      "invoicedate": "2025-04-14T13:37:29.656Z",
+      "taxcode": "Inclusive",
+      "taxtype": "I",
+      "taxperc": 7,
+      "total": 300,
+      "tax": 19.62616822429908,
+      "nettotal": 300,
+      "products": [
+        {
+          "productid": "6",
+          "name": "Keeping clove",
+          "qty": 1,
+          "price": "300",
+          "total": 300
         }
       ]
     }

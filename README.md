@@ -1,5 +1,5 @@
 1.	create project 
-	  ng mew biling
+	  ng new biling
 2.	ng g c component/create,list
 3.	ng g s service/invoice
 4.	create folder src/data
